@@ -1,0 +1,122 @@
+/* styles.css */
+
+/* Général */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 6rem 1rem;
+    margin-top: 60px; /* Offset for fixed header */
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.products {
+    padding: 2rem 1rem;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
