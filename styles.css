@@ -134,3 +134,17 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+
+/* Redimensionner les images pour qu'elles ne dépassent pas la largeur de leur conteneur */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centrer l'image */
+}
+
+/* Fixer une taille spécifique pour les images */
+.fixed-size-img {
+    width: 300px; /* Largeur fixe */
+    height: auto; /* Hauteur automatique pour conserver les proportions */
+}
