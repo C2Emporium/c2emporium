@@ -55,7 +55,7 @@ git push origin ma-nouvelle-fonctionnalite
 Crée une Pull Request : Ouvrez une Pull Request depuis votre fork vers le dépôt original.
 Auteurs
 
-Ton Nom
+Taylor WUSH
 Licence
 
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
